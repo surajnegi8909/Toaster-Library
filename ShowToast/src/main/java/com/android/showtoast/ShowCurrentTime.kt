@@ -2,7 +2,9 @@ package com.android.showtoast
 
 class ShowCurrentTime {
 
-    fun currentTime() :String{
-        return System.currentTimeMillis().toString()
+    companion object {
+        fun currentTime(): String {
+            return System.currentTimeMillis().toString()
+        }
     }
 }
